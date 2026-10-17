@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "Zain Soft — Spike",
+    "language": "العربية",
+    "machine": "Machine"
+  },
+  "tabs": {
+    "lang": "Language & direction",
+    "sessions": "Sessions",
+    "grid": "Large data",
+    "windows": "Windows & printing"
+  },
+  "conn": {
+    "title": "Database connection",
+    "hint": "Enter the main machine's address and the database name. It is saved once and asked again only if it fails.",
+    "host": "Host (IP)",
+    "port": "Port",
+    "database": "Database",
+    "username": "User",
+    "password": "Password",
+    "connect": "Connect and save",
+    "connecting": "Connecting...",
+    "connected": "Connected to",
+    "change": "Change connection"
+  },
+  "lang": {
+    "intro": "Type something in the fields, then switch language: the direction flips at once and nothing you typed is lost.",
+    "name": "Company name",
+    "notes": "Notes",
+    "numbers": "Number style",
+    "latn": "English 0123",
+    "arab": "Arabic ٠١٢٣",
+    "sample": "Sample: balance"
+  },
+  "sessions": {
+    "intro": "Log in from this PC and from a second one. Sessions never exceed the licensed copies, even when both PCs log in at the same moment.",
+    "username": "Username",
+    "login": "Log in",
+    "logout": "Log out",
+    "you": "Your session #{{id}}",
+    "copies": "Licensed copies",
+    "save": "Save",
+    "active": "Active sessions: {{n}} of {{copies}}",
+    "col_user": "User",
+    "col_machine": "Machine",
+    "col_started": "Started"
+  },
+  "grid": {
+    "intro": "Rows are generated and totalled inside Postgres; the grid draws only the visible rows and fetches them page by page.",
+    "seed": "Add {{n}} rows",
+    "clear": "Delete rows",
+    "stats": "{{rows}} rows · debit {{debit}} · credit {{credit}} · {{ms}} ms",
+    "col_id": "No.",
+    "col_date": "Date",
+    "col_code": "Account code",
+    "col_name": "Account name",
+    "col_desc": "Description",
+    "col_debit": "Debit",
+    "col_credit": "Credit",
+    "working": "Working..."
+  },
+  "windows": {
+    "intro": "Each function opens in its own window. The app won't quit while windows are open.",
+    "open": "Open a new window",
+    "quit": "Quit the app",
+    "print": "Print the invoice",
+    "second_title": "Independent window",
+    "second_body": "This is a second window, running independently of the main one.",
+    "invoice": "Sales invoice",
+    "item": "Item",
+    "qty": "Qty",
+    "price": "Price",
+    "total": "Total",
+    "grand": "Grand total"
+  },
+  "msg": {
+    "DBC-01": "There is no database connection. Enter the connection details.",
+    "DBC-02": "Could not connect to the database. Check the address, database name and login.",
+    "LOG-01": "Username is required.",
+    "LOG-04": "You can't log in to Zain Soft because the number of licensed copies has been exceeded.",
+    "HOME-02": "There are open windows that must be closed before quitting.",
+    "DB-ERR": "A database error occurred.",
+    "CFG-ERR": "Could not save this PC's settings.",
+    "PRN-ERR": "Printing failed."
+  }
+}

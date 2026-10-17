@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Spike only: system fonts. The real app bundles one Arabic and one Latin font
+   so Windows (WebView2) and macOS (WebKit) render the same. */
+:root {
+  font-family: "Segoe UI", "SF Arabic", "Geeza Pro", Tahoma, system-ui, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f9;
+  color: #1c2430;
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+}
